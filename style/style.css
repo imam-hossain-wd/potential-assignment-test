@@ -9,6 +9,22 @@ body{
     margin: 5% auto;
 }
 
+/* header section */
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.header-section h3{
+  font-size: 16px;
+}
+.header-section h4{
+  font-size: 14px;
+}
+
+/* sell banner section */
+
 .sell-main-banner{
     background: #f3f3f3;
     padding: 20px;
