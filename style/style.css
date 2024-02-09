@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 450px;
+    margin: 5% auto;
+}
+
+.sell-main-banner{
+    background: #f3f3f3;
+    padding: 20px;
+    
+    
+}
+
+.sell-banner-heading {
+  color: #909090;
+  font-size: 30px;
+  Line-height:40px;
+}
+.sell-banner-heading span {
+  color: #303030;
+}
+
+.banner-content {
+    margin-top: 10px;
+    font-size: 16px;
+    Line-height:25px;
+    left: 25px;
+    margin-bottom: 20px;
+}
+.banner-content p{
+    margin-top: 20px;
+
+}
+
+.banner-content p:last-child{
+    margin-top: 20px;
+}
+
+.service-options{
+    display: flex;
+    width: 80%;
+    margin: 5px auto;
+    justify-content:space-between;
+    align-items: center;    
+}
+.service-info{
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    border-bottom:2px solid #242424;
+
+}
+.service-application{
+
+}
+
+.sell-banner-image{
+    /* margin-top: 40px; */
+}
+.sell-banner-image img{
+    width: 100%;
+}
