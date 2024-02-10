@@ -1,84 +1,122 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    width: 450px;
-    margin: 5% auto;
+body {
+  width: 450px;
+  margin: 5% auto;
 }
 
 /* header section */
-.header-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
-.header-section h3{
+.header-section h3 {
   font-size: 16px;
 }
-.header-section h4{
+.header-section h4 {
   font-size: 14px;
 }
 
 /* sell banner section */
 
-.sell-main-banner{
-    background: #f3f3f3;
-    padding: 20px;
-    
-    
+.sell-main-banner {
+  background: #f3f3f3;
+  padding: 20px;
 }
 
 .sell-banner-heading {
   color: #909090;
   font-size: 30px;
-  Line-height:40px;
+  line-height: 40px;
 }
 .sell-banner-heading span {
   color: #303030;
 }
 
 .banner-content {
-    margin-top: 10px;
-    font-size: 16px;
-    Line-height:25px;
-    left: 25px;
-    margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 25px;
+  left: 25px;
+  margin-bottom: 20px;
 }
-.banner-content p{
-    margin-top: 20px;
-
-}
-
-.banner-content p:last-child{
-    margin-top: 20px;
+.banner-content p {
+  margin-top: 20px;
 }
 
-.service-options{
-    display: flex;
-    width: 80%;
-    margin: 5px auto;
-    justify-content:space-between;
-    align-items: center;    
-}
-.service-info{
-    padding: 5px;
-    font-size: 18px;
-    font-weight: bold;
-    margin-right: 10px;
-    border-bottom:2px solid #242424;
-
-}
-.service-application{
-
+.banner-content p:last-child {
+  margin-top: 20px;
 }
 
-.sell-banner-image{
-    /* margin-top: 40px; */
+.service-options {
+  display: flex;
+  width: 80%;
+  margin: 5px auto;
+  justify-content: space-between;
+  align-items: center;
 }
-.sell-banner-image img{
-    width: 100%;
+.service-info {
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+  border-bottom: 2px solid #242424;
+}
+
+.sell-banner-image img {
+  width: 100%;
+}
+
+/* benefits provide section */
+.main {
+  background: #f3f3f3;
+}
+
+.benefit-container {
+  background: #f3f3f3;
+  position: relative;
+}
+.benefit-item {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #909090;
+  margin-left: 35px;
+}
+.benefits-name {
+  height: 80px;
+  width: 350px;
+  margin-bottom: 8px;
+  margin-left: 30px;
+  margin-top: 24px;
+}
+
+.benefits-name p {
+  margin-top: 15px;
+}
+
+.option-count-main {
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.option-count {
+  font-size: 18px;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+  align-items: center;
 }
