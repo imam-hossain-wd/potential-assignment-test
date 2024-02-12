@@ -55,49 +55,91 @@ body {
 }
 
 .service-options {
+  position: relative;
   display: flex;
   width: 80%;
   margin: 5px auto;
   justify-content: space-between;
   align-items: center;
 }
+.service-options-border{
+  position: absolute;
+  top: -41px;
+  left: 38px;
+  width: 1px;
+  height: 200px;
+  background: #242424;
+  rotate: 90deg;
+}
 .service-info {
   padding: 5px;
   font-size: 18px;
   font-weight: bold;
   margin-right: 10px;
-  border-bottom: 2px solid #242424;
 }
 
 .sell-banner-image img {
   width: 100%;
+  margin-bottom: -5px;
 }
 
 /* benefits provide section */
-.main {
+
+.benifit-container {
   background: #f3f3f3;
+  display: flex;
 }
 
-.benefit-container {
-  background: #f3f3f3;
-  position: relative;
-}
 .benefit-item {
   display: flex;
   flex-direction: column;
-  border-left: 1px solid #909090;
-  margin-left: 35px;
+  margin-top: 16px;
 }
 .benefits-name {
   height: 80px;
   width: 350px;
   margin-bottom: 8px;
-  margin-left: 30px;
   margin-top: 24px;
 }
 
 .benefits-name p {
-  margin-top: 15px;
+  margin-top: 12px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+  margin-top: 16px;
+}
+.container .steps {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 80px;
+  margin-left: 35px;
+  margin-right: 20px;
+  margin-top: 25px;
+  width: 100%;
+}
+.steps .circle {
+  height: 30px;
+  width: 30px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+  background: black;
+  z-index: 1;
+}
+.progress-bar {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  width: 1px;
+  height: 430px;
+  background-color: #999999;
 }
 
 .option-count-main {
@@ -105,6 +147,19 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.steps .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+  background: black;
 }
 
 .option-count {
@@ -119,4 +174,120 @@ body {
   justify-content: center;
   border-radius: 100%;
   align-items: center;
+}
+
+/* form section */
+
+.form-main {
+  background: #f3f3f3;
+}
+.form-header-section {
+  padding: 20px;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.form-info {
+  color: #909090;
+}
+.form-application {
+  font-weight:900;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form-border {
+  position: absolute;
+  top: -18px;
+  right: 100px;
+  width: 2px;
+  height: 200px;
+  background: #242424;
+  rotate: 90deg;
+}
+
+.form-main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-main-section label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.form-main-section div {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.form-main-section span {
+  color: red;
+}
+
+/* input checkbox */
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 12px;
+}
+.checkbox-container span {
+  color: #999999;
+}
+
+.input-field {
+  width: 355px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 5px;
+  border-width: 1px;
+  background: white;
+  border: 1px solid transparent;
+  margin: 10px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url(https://i.ibb.co/mHzvDzB/assignment.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}
+
+.input-check {
+  width: 15px;
+  height: 15px;
+  color: red;
+  background-color: red;
+}
+
+.input-check:checked {
+  border-color: red !important;
+  background: red;
+}
+
+.button-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+button {
+  background: #f3db39;
+  border: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 300px;
+  height: 40px;
 }

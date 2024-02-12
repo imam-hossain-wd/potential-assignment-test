@@ -41,6 +41,7 @@
           <div class="service-options">
             <span class="service-info">서비스안내</span>
             <span class="service-application">서비스신청</span>
+            <div class="service-options-border"></div>
           </div>
         </div>
 
@@ -51,60 +52,117 @@
 
       <!-- benefits provide section-->
 
-<div class="main">
+      <section class="benifit-container">
 
-  <section class="benefit-container">
-    <div class="benefit-item">
-      <div class="benefits-name">
-        <h3> 상담 및 예약</h3>
-        <p>문의를 남겨주시면 직거래카닷컴에서 연락드려  방문스케줄 을 예약해 드립니다.</p>
-      </div>
-      <div class="benefits-name">
-        <h3>방문견적 및 가격상담</h3>
-        <p>담당자 방문을 통해 가격 상담 및 차량 거래가
-          진행됩니다.</p>
-      </div>
-      <div class="benefits-name">
-        <h3>차량대금 송금</h3>
-        <p>계약서 작성 후 차량 대금을 송금해 드립니다.
-        </p>
-      </div>
-      <div class="benefits-name">
-        <h3>차량이동</h3>
-        <p>입금이 확인되면 탁송기사를 통해 고객님의 차량을
-          당사로 이동합니다.</p>
-      </div>
-      <div class="benefits-name">
-        <h3>명의변경(소유권 이전)</h3>
-        <p>당일 또는 늦어도 익일까지 차량 소유권 변경을 통해
-          가장 안전한 중고차 거래를 책임지겠습니다.</p>
-      </div>
-    </div>
+        <div>
+          <div class="container">
+            <div class="steps">
+              <span class="circle active">1</span>
+              <span class="circle">2</span>
+              <span class="circle">3</span>
+              <span class="circle">4</span>
+              <span class="circle">5</span>
+              <div class="progress-bar"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="benefit-item">
+          <div class="benefits-name">
+            <h3>상담 및 예약</h3>
+            <p>
+              문의를 남겨주시면 직거래카닷컴에서 연락드려  방문스케줄 을
+              예약해 드립니다.
+            </p>
+          </div>
+          <div class="benefits-name">
+            <h3>방문견적 및 가격상담</h3>
+            <p>담당자 방문을 통해 가격 상담 및 차량 거래가 진행됩니다.</p>
+          </div>
+          <div class="benefits-name">
+            <h3>차량대금 송금</h3>
+            <p>계약서 작성 후 차량 대금을 송금해 드립니다.</p>
+          </div>
+          <div class="benefits-name">
+            <h3>차량이동</h3>
+            <p>
+              입금이 확인되면 탁송기사를 통해 고객님의 차량을 당사로
+              이동합니다.
+            </p>
+          </div>
+          <div class="benefits-name">
+            <h3>명의변경(소유권 이전)</h3>
+            <p>
+              당일 또는 늦어도 익일까지 차량 소유권 변경을 통해 가장 안전한
+              중고차 거래를 책임지겠습니다.
+            </p>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- form section -->
+
+      <section class="form-main">
+        <div class="form-header-section">
+          <span class="form-info">서비스안내</span>
+          <span class="form-application">서비스신청</span>
+          <div class="form-border"></div>
+        </div>
+
+        <div class="form-main-section">
+          <label>
+           <div> 신청자명 <span>*</span></div>
+            <input class="input-field" type="text" placeholder="홍길동" />
+          </label>
+          <label>
+            <div>휴대폰 번호 <span>*</span> </div>
+            <input class="input-field" type="text" placeholder="홍길동" />
+          </label>
+          <!-- <label>
+            <div>방문요청일 <span>*</span> </div>
+            <div class="placeholder-overlay">방문요청일 선택</div>
+            <input id="dateInput" class="input-field" type="date" placeholder="방문요청일 선택" />
+          </label> -->
+          <label>
+            <div>방문요청일 <span>*</span> </div>
+            <input class="input-field" type="date" />
+          </label>
+          <label>
+            <div>방문요청시간 <span>*</span> </div>
+            <input class="input-field" type="text" placeholder="홍길동" />
+          </label>
+
+            <div class="checkbox-container">
+              <div>
+                <input class="input-check" checked type="checkbox" />
+                <label>[필수] 개인정보 수집/이용 동의</label> <span>내용보기</span>
+              </div>
+    
+              <div class="main-input">
+                <input class="input-check" checked type="checkbox" />
+                <label>[필수] 입력정보 제 3자제공 동의</label> <span>내용보기</span>
+              </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="button-main">
+          <button>딜러를 통한 즉시판매 신청</button>
+        </div>
+      </section>
+
+
   
-    <div class="option-count-main">
-      <p class="option-count">1</p>
-      <p class="option-count">2</p>
-      <p class="option-count">3</p>
-      <p class="option-count">4</p>
-      <p class="option-count">5</p>
-    </div>
-  
-  </section>
-</div>
-
-<!-- form section -->
-
-
-
-
-
-
-    </main>
-
     <script src="/app/app.js"></script>
     <script
       src="https://kit.fontawesome.com/b39c04d56f.js"
       crossorigin="anonymous"
-    ></script>
+    >
+  
+  
+  </script>
   </body>
 </html>
