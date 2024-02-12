@@ -28,6 +28,7 @@ body {
 .sell-main-banner {
   background: #f3f3f3;
   padding: 20px;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .sell-banner-heading {
@@ -64,7 +65,7 @@ body {
 }
 .service-options-border{
   position: absolute;
-  top: -41px;
+  top: -51px;
   left: 38px;
   width: 1px;
   height: 200px;
@@ -72,10 +73,9 @@ body {
   rotate: 90deg;
 }
 .service-info {
-  padding: 5px;
   font-size: 18px;
   font-weight: bold;
-  margin-right: 10px;
+
 }
 
 .sell-banner-image img {
@@ -197,13 +197,12 @@ body {
 .form-application {
   font-weight:900;
   margin-top: 10px;
-  margin-bottom: 10px;
 }
 .form-border {
   position: absolute;
-  top: -18px;
+  top: -28px;
   right: 100px;
-  width: 2px;
+  width: 1px;
   height: 200px;
   background: #242424;
   rotate: 90deg;
@@ -215,30 +214,20 @@ body {
   justify-content: center;
   align-items: center;
 }
+.form-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+
 .form-main-section label {
-  font-weight: bold;
-  margin-top: 10px;
-}
-.form-main-section div {
-  margin-left: 10px;
   margin-bottom: 5px;
-}
+margin-top: 15px;
+font-weight: bold;
+} 
 
 .form-main-section span {
   color: red;
-}
-
-/* input checkbox */
-
-.checkbox-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  font-size: 12px;
-}
-.checkbox-container span {
-  color: #999999;
 }
 
 .input-field {
@@ -249,7 +238,7 @@ body {
   border-width: 1px;
   background: white;
   border: 1px solid transparent;
-  margin: 10px;
+  margin-top: 10px;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
@@ -262,17 +251,53 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   border-width: thin;
 }
 
+.select-field{
+  color:gray;
+  padding: 5px;
+} 
+
+/* input checkbox */
+
+.checkbox-container {
+ display: flex;
+  margin-right: 155px;
+  margin-top:20px;
+  flex-direction: column;
+  align-items: center;
+}
+.checkbox-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.checkbox-child span {
+  color:#999999;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.checkbox-child label {
+  margin-top: -1px;
+}
+
+.child-2 {
+  margin-left: 5px;
+  margin-top: 8px;
+}
+
 .input-check {
-  width: 15px;
+  width: 40px;
   height: 15px;
-  color: red;
-  background-color: red;
 }
 
 .input-check:checked {
   border-color: red !important;
   background: red;
 }
+
+/* submit button */
 
 .button-main {
   display: flex;

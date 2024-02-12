@@ -111,39 +111,39 @@
         </div>
 
         <div class="form-main-section">
-          <label>
-           <div> 신청자명 <span>*</span></div>
+          <div class="form-child">
+           <label> 신청자명 <span>*</span></label>
             <input class="input-field" type="text" placeholder="홍길동" />
-          </label>
-          <label>
-            <div>휴대폰 번호 <span>*</span> </div>
+          </div>
+          <div class="form-child">
+            <label>휴대폰 번호 <span>*</span> </label>
             <input class="input-field" type="text" placeholder="홍길동" />
-          </label>
-          <!-- <label>
-            <div>방문요청일 <span>*</span> </div>
-            <div class="placeholder-overlay">방문요청일 선택</div>
-            <input id="dateInput" class="input-field" type="date" placeholder="방문요청일 선택" />
-          </label> -->
-          <label>
-            <div>방문요청일 <span>*</span> </div>
+          </div>
+          <div class="form-child">
+            <label>방문요청일 <span>*</span> </label>
             <input class="input-field" type="date" />
-          </label>
-          <label>
-            <div>방문요청시간 <span>*</span> </div>
-            <input class="input-field" type="text" placeholder="홍길동" />
-          </label>
+          </div>
+          
+          <div class="form-child">
+            <label>방문요청시간 <span>*</span> </label>
+          <select class="input-field select-field" name="cars" id="cars">
+            <option value="volvo">방문요청시간 선택</option>
+            <option value="saab">방문요청시간 선택</option>
+            <option value="mercedes">방문요청시간 선택</option>
+            <option value="audi">방문요청시간 선택</option>
+          </select>
+        </div>
 
             <div class="checkbox-container">
-              <div>
-                <input class="input-check" checked type="checkbox" />
+              <div class="checkbox-child">
+                <input class="input-check child-1" checked type="checkbox" />
                 <label>[필수] 개인정보 수집/이용 동의</label> <span>내용보기</span>
               </div>
     
-              <div class="main-input">
+              <div class="checkbox-child child-2">
                 <input class="input-check" checked type="checkbox" />
                 <label>[필수] 입력정보 제 3자제공 동의</label> <span>내용보기</span>
               </div>
-
             </div>
 
 
